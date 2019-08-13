@@ -1,0 +1,96 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding: 10px 20px;
+}
+header nav a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+#logado:hover{
+    text-decoration: none;
+}
+header nav img{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+#logado{
+    margin-left: 10px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #330000;
+    text-align: center;
+    color: #fff;
+}
+
+/*Section*/
+section{
+    padding-top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section img{
+    padding-bottom: 20px;
+}
+.pesquisar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 20px;
+}
+.pesquisar:hover{
+    box-shadow: 0 1px 6px 0px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223,225,229,0);
+}
+.pesquisar input{
+    margin-left:10px;
+    width: 400px;
+    border: none;
+}
+.pesquisar img{
+    width: 24px;
+    padding: 0px;
+    padding: 0 8px;
+}
+.botoes{
+    display: flex;
+    align-content: center;
+}
+.botoes a{
+    display: block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    font-size: 14px;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 0 16px;
+    margin: 30px 4px;
+}
+.botoes a:hover{
+    border: 1px #222 solid;
+}
